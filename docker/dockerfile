@@ -2,6 +2,5 @@ FROM alpine:latest
 LABEL maintainer="richjjoh@gmail.com"
 RUN apk update
 RUN apk --no-cache add dnsmasq
-RUN rm /etc/dnsmasq.conf /etc/hosts rm /etc/resolv.conf
 EXPOSE 53/udp
 CMD ["dnsmasq","-d"]
