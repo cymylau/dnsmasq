@@ -15,7 +15,7 @@ jobs:
   build-container:
 
     runs-on: self-hosted
-
+    container: docker:latest
     steps:
     
     - uses: actions/checkout@v3
