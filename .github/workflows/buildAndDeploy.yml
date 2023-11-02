@@ -14,7 +14,6 @@ jobs:
 
   build-container:
 
-    runs-on: self-hosted
     container: docker:latest
     steps:
     
